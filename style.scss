@@ -1,0 +1,59 @@
+// Colors Variables
+$primary: #3d0d90;
+$primary-hover: #5727d2;
+$secondary: #48a9a6;
+$neutral: #e4dfda;
+$accent: #f7996e;
+$bg-image: "/images/bg.jpg";
+$white: #fff;
+$black: #333;
+
+// Color Effects
+$white-trans: transparentize($white, .75);
+
+// Elements
+$white-border: 1px solid $white-trans;
+
+// Placeholders
+
+// Mixins
+
+// Bootstrap Overrides
+.btn-primary, .bg-primary{
+    background: $primary;
+}
+
+.btn-primary{
+    border: 1px solid $primary;
+    &:hover{
+        background: $primary-hover;
+        border: 1px solid transparent;
+    }
+}
+
+
+
+
+
+
+
+body, html{
+    height: 100%;
+}
+body{
+   display: grid;
+   place-items: center;
+   height: 100%;
+   background-image: url($bg-image);
+}
+
+.screen-content{
+    max-width: 600px;
+    color: $white;
+}
+
+.email-form-wrapper{
+    background: $white-trans;
+    border-radius: .25rem;
+    border: $white-border;
+}

@@ -1,0 +1,36 @@
+.btn-primary, .bg-primary {
+  background: #3d0d90;
+}
+
+.btn-primary {
+  border: 1px solid #3d0d90;
+}
+
+.btn-primary:hover {
+  background: #5727d2;
+  border: 1px solid transparent;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 100%;
+  background-image: url("/images/bg.jpg");
+}
+
+.screen-content {
+  max-width: 600px;
+  color: #fff;
+}
+
+.email-form-wrapper {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: .25rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+/*# sourceMappingURL=style.css.map */

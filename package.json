@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/atlTechie/design-plug-atl/issues"
   },
-  "homepage": "https://github.com/atlTechie/design-plug-atl#readme"
+  "homepage": "https://github.com/atlTechie/design-plug-atl#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "bootstrap": "^5.1.3"
+  }
 }
