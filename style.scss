@@ -14,6 +14,18 @@ $white-trans: transparentize($white, .75);
 // Elements
 $white-border: 1px solid $white-trans;
 
+
+// Animations
+@keyframes introTextFadeIn {
+    from {background-color: $primary;}
+    to {background-color: $secondary}
+}
+
+.text-info{
+    animation-name: introTextFadeIn;
+    animation-duration: 1s;
+}
+
 // Placeholders
 
 // Mixins

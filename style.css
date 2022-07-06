@@ -1,3 +1,28 @@
+@-webkit-keyframes introTextFadeIn {
+  from {
+    background-color: #3d0d90;
+  }
+  to {
+    background-color: #48a9a6;
+  }
+}
+
+@keyframes introTextFadeIn {
+  from {
+    background-color: #3d0d90;
+  }
+  to {
+    background-color: #48a9a6;
+  }
+}
+
+.text-info {
+  -webkit-animation-name: introTextFadeIn;
+          animation-name: introTextFadeIn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
 .btn-primary, .bg-primary {
   background: #3d0d90;
 }
