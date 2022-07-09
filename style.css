@@ -16,13 +16,6 @@
   }
 }
 
-.text-info {
-  -webkit-animation-name: introTextFadeIn;
-          animation-name: introTextFadeIn;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-}
-
 .btn-primary, .bg-primary {
   background: #3d0d90;
 }
